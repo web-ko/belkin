@@ -1,0 +1,95 @@
+@font-face {
+    font-family: CircularPro-Medium;
+    src: url(/_next/static/media/CircularPro-Medium.15f6d90e.woff) format("woff");
+    font-weight: 450;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularPro-Medium;
+    src: url(/_next/static/media/CircularPro-Medium.d5931792.woff2) format("woff2");
+    font-weight: 450;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXWeb-Regular;
+    src: url(/_next/static/media/CircularXXWeb-Regular.68d478a0.woff) format("woff");
+    font-weight: 450;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXWeb-Regular;
+    src: url(/_next/static/media/CircularXXWeb-Regular.bd831e5f.woff2) format("woff2");
+    font-weight: 450;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXWeb-Italic;
+    src: url(/_next/static/media/CircularXXWeb-Italic.d23d955d.woff) format("woff");
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXWeb-Italic;
+    src: url(/_next/static/media/CircularXXWeb-Italic.b53409ed.woff2) format("woff2");
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXMonoWeb-Regular;
+    src: url(/_next/static/media/CircularXXMonoWeb-Regular.22b4d901.woff) format("woff");
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXMonoWeb-Regular;
+    src: url(/_next/static/media/CircularXXMonoWeb-Regular.7b55d084.woff2) format("woff2");
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXSub-Regular;
+    src: url(/_next/static/media/CircularXXSub-Regular.1b87033b.woff) format("woff");
+    font-weight: 450;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXSub-Regular;
+    src: url(/_next/static/media/CircularXXSub-Regular.88da7bf5.woff2) format("woff2");
+    font-weight: 450;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXSub-Italic;
+    src: url(/_next/static/media/CircularXXSub-Italic.1e92b6c7.woff) format("woff");
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXSub-Italic;
+    src: url(/_next/static/media/CircularXXSub-Italic.c959d259.woff2) format("woff2");
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXMonoSub-Regular;
+    src: url(/_next/static/media/CircularXXMonoSub-Regular.a056c2b2.woff) format("woff");
+    font-display: fallback
+}
+
+@font-face {
+    font-family: CircularXXMonoSub-Regular;
+    src: url(/_next/static/media/CircularXXMonoSub-Regular.093524ce.woff2) format("woff2");
+    font-display: fallback
+}
