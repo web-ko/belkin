@@ -1,0 +1,272 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+body {
+    font-family: var(--chakra-fonts-body);
+    color: var(--chakra-colors-chakra-body-text);
+    background: var(--chakra-colors-chakra-body-bg);
+    -webkit-transition-property: background-color;
+    -o-transition-property: background-color;
+    transition-property: background-color;
+    -webkit-transition-duration: var(--chakra-transition-duration-normal);
+         -o-transition-duration: var(--chakra-transition-duration-normal);
+            transition-duration: var(--chakra-transition-duration-normal);
+    line-height: var(--chakra-lineHeights-base);
+    min-width: 320px;
+    font-size: var(--chakra-fontSizes-md);
+}
+
+*::-webkit-input-placeholder {
+    color: var(--chakra-colors-chakra-placeholder-color);
+}
+
+*::-moz-placeholder {
+    color: var(--chakra-colors-chakra-placeholder-color);
+}
+
+*:-ms-input-placeholder {
+    color: var(--chakra-colors-chakra-placeholder-color);
+}
+
+*::-ms-input-placeholder {
+    color: var(--chakra-colors-chakra-placeholder-color);
+}
+
+*::placeholder {
+    color: var(--chakra-colors-chakra-placeholder-color);
+}
+
+*,*::before,::after {
+    border-color: var(--chakra-colors-chakra-border-color);
+    word-wrap: break-word;
+}
+
+html,body {
+    background-color: var(--chakra-colors-white);
+    color: var(--chakra-colors-offblack-100);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.additional-margin {
+    display: block!important;
+    width: 20px;
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 744px) {
+    .additional-margin {
+        width:0%;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .additional-margin {
+        width:calc(2/24*100%);
+    }
+}
+
+.swiper-pagination {
+    position: initial;
+    padding-top: 24px;
+}
+
+.swiper-pagination-bullet {
+    height: 2px;
+    background-color: var(--chakra-colors-offblack-100);
+    opacity: 0.3;
+    border-radius: 0px;
+    margin: 0px 0px!important;
+}
+
+.swiper-pagination .swiper-pagination-bullet:not(:first-of-type) {
+    margin-left: 6px!important;
+}
+
+.swiper-pagination-bullet-active {
+    opacity: 1;
+}
+
+a:hover,a[data-hover] {
+    -webkit-text-decoration: none!important;
+    text-decoration: none!important;
+}
+
+#CybotCookiebotDialogBodyUnderlay {
+    z-index: 4!important;
+}
+
+.CybotMultilevel {
+    z-index: 0!important;
+    display: none!important;
+}
+
+.CybotMultilevel.CybotCookiebotDialogActive {
+    z-index: 5!important;
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+#CybotCookiebotDialog {
+    color: var(--chakra-colors-offblack-100)!important;
+    font-family: var(--chakra-fonts-body)!important;
+}
+
+#CybotCookiebotDialogHeader {
+    border-bottom: 0px solid transparent!important;
+}
+
+#CybotCookiebotDialogHeaderLogosWrapper {
+    padding-bottom: 10px!important;
+    border-bottom: 4px solid black!important;
+}
+
+#CybotCookiebotDialogPoweredbyImage {
+    background-color: var(--chakra-colors-white)!important;
+    max-height: 45px!important;
+    margin-bottom: -22px!important;
+    border-right: 12px solid white!important;
+}
+
+#CybotCookiebotDialogPoweredbyCybot>svg {
+    fill: var(--chakra-colors-warmgrey-80)!important;
+}
+
+#CybotCookiebotDialogPoweredbyCybot>svg:hover {
+    fill: var(--chakra-colors-warmgrey-100)!important;
+}
+
+#CybotCookiebotDialogPoweredByText a {
+    color: var(--chakra-colors-warmgrey-80)!important;
+}
+
+#CybotCookiebotDialogPoweredByText a:hover {
+    color: var(--chakra-colors-warmgrey-100)!important;
+}
+
+.CybotCookiebotDialogNavItemLink {
+    border-bottom: 1px solid warmgrey.40!important;
+}
+
+.CybotCookiebotDialogNavItemLink:not(.CybotCookiebotDialogActive):hover {
+    opacity: 0.8!important;
+}
+
+.CybotCookiebotDialogActive {
+    color: var(--chakra-colors-offblack-100)!important;
+    border-bottom-color: var(--chakra-colors-warmgrey-80)!important;
+}
+
+#CybotCookiebotDialogBodyContentText a,.CybotCookiebotDialogDetailBodyContentCookieLink {
+    color: var(--chakra-colors-warmgrey-80)!important;
+}
+
+#CybotCookiebotDialogBodyContentText a:hover,.CybotCookiebotDialogDetailBodyContentCookieLink:hover {
+    color: var(--chakra-colors-warmgrey-100)!important;
+}
+
+.CybotCookiebotDialogNavItemLink:hover,.CybotCookiebotDialogDetailBodyContentCookieContainerButton:hover,.CybotCookiebotDialogCollapsed:hover,.CybotCookiebotDialogDetailBodyContentCookieProvider:hover,.CybotCookiebotDialogBodyLevelButtonDescription:hover {
+    color: var(--chakra-colors-offblack-100)!important;
+    opacity: 0.8!important;
+}
+
+#CybotCookiebotDialog button:before,#CybotCookiebotDialog button:after,#CybotCookiebotDialog a:before,#CybotCookiebotDialog a:after {
+    border-color: var(--chakra-colors-offblack-100)!important;
+}
+
+#CybotCookiebotDialog button:hover:before,#CybotCookiebotDialog button:hover:after,#CybotCookiebotDialog a:hover:before,#CybotCookiebotDialog a:hover:after {
+    opacity: 0.8!important;
+}
+
+#CybotCookiebotDialogDetailFooter a {
+    color: var(--chakra-colors-offblack-100)!important;
+}
+
+.CybotCookiebotDialogBodyLevelButtonSlider {
+    background-color: var(--chakra-colors-warmgrey-40)!important;
+}
+
+input:checked+.CybotCookiebotDialogBodyLevelButtonSlider {
+    background-color: var(--chakra-colors-offblack-100)!important;
+}
+
+[disabled]:checked+.CybotCookiebotDialogBodyLevelButtonSlider {
+    background-color: var(--chakra-colors-warmgrey-80)!important;
+}
+
+.CybotCookiebotDialogBodyButton {
+    color: var(--chakra-colors-offblack-100)!important;
+    border: 0px solid transparent!important;
+    border-radius: 0px!important;
+    background-color: var(--chakra-colors-warmgrey-40)!important;
+}
+
+#CybotCookiebotDialogBodyLevelButtonLevelOptinAllowAll {
+    background-color: var(--chakra-colors-offblack-100)!important;
+    color: var(--chakra-colors-white)!important;
+}
+
+@media (max-width: 1279px) {
+    #CybotCookiebotDialogHeaderLogosWrapper {
+        padding-bottom:12px!important;
+    }
+}
+
+#CookiebotWidget-widgetContent {
+    font-family: var(--chakra-fonts-body)!important;
+}
+
+.Cookiebotwidget-consent-icon svg {
+    fill: var(--chakra-colors-offblack-100)!important;
+}
+
+.CookiebotWidget-show-consent-details {
+    color: var(--chakra-colors-offblack-100)!important;
+}
+
+.CookiebotWidget-main-logo a>svg {
+    fill: var(--chakra-colors-warmgrey-80)!important;
+}
+
+.CookiebotWidget-main-logo a>svg:hover {
+    fill: var(--chakra-colors-warmgrey-100)!important;
+}
+
+#CookiebotWidget-btn-change {
+    background-color: var(--chakra-colors-offblack-100)!important;
+    border: 0px solid transparent!important;
+    border-radius: 0px!important;
+    -webkit-transition: opacity 0.1s ease-in-out!important;
+    -o-transition: opacity 0.1s ease-in-out!important;
+    transition: opacity 0.1s ease-in-out!important;
+}
+
+#CookiebotWidget-btn-withdraw {
+    background-color: var(--chakra-colors-white)!important;
+    border: 2px solid!important;
+    border-color: var(--chakra-colors-offblack-100)!important;
+    border-radius: 0px!important;
+    color: var(--chakra-colors-offblack-100)!important;
+    opacity: 1!important;
+    -webkit-transition: opacity 0.1s ease-in-out!important;
+    -o-transition: opacity 0.1s ease-in-out!important;
+    transition: opacity 0.1s ease-in-out!important;
+}
+
+#CookiebotWidget-btn-withdraw:hover {
+    opacity: 0.8!important;
+}
+
+#CookiebotWidget-btn-withdraw:disabled {
+    border-color: var(--chakra-colors-warmgrey-80)!important;
+    color: var(--chakra-colors-warmgrey-80)!important;
+}

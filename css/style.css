@@ -1,0 +1,3063 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+html, body{
+    /*min-height: 100vh;*/
+    overflow-x: clip;
+    /*overflow-x: hidden;*/
+}
+
+body{
+    -webkit-animation: load .25s .25s both;
+            animation: load .25s .25s both;
+}
+@-webkit-keyframes load{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes load{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+/* swiper-ის ტექსტის ანიმაცია ჩატვირთვის დროს */
+.css-lg9xot{
+    -webkit-animation: load .35s .35s both;
+            animation: load .35s .35s both;
+}
+@keyframes load{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+/* End ov swiper-ის ტექსტის ანიმაცია ჩატვირთვის დროს*/
+
+/*::-webkit-scrollbar {
+    display: none;
+}*/
+
+/*html.os-html > .os-host > .os-scrollbar {
+    position: absolute;
+    z-index: 999999;
+    opacity: 0;
+}
+body.scrollable:hover  .os-scrollbar {
+    opacity: 1;
+}*/
+
+
+#__next{
+    margin-top: 0;
+    padding-left: 0;
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after {
+    content: '';
+}
+.swiper-button-prev:after, .swiper-rtl .swiper-button-next:after {
+    content: '';
+}
+.swiper-button-next, .swiper-button-prev {
+    top: var(--swiper-navigation-top-offset,0%);
+}
+.swiper-pagination {
+    position: initial;
+    /*padding-top: 0;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.swiper-pagination-bullet {
+    width: 3rem;
+    background-color: #fff;
+}
+.css-vo4v8d {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    max-height: none;
+    background: var(--chakra-colors-transparent);
+}
+.css-vo4v8d::before {
+    height: 0px;
+    content: "";
+    display: block;
+    padding-bottom: 55.2239%;
+}
+.css-1n43rb4 {
+    width: 100%;
+    margin-left: 1.25rem;
+    padding-right: 0px;
+    color: var(--chakra-colors-offblack-100);
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(100% - 2.5rem);
+            flex: 1 0 calc(100% - 2.5rem);
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    opacity: 1;
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+}
+.css-vo4v8d > :not(style) {
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.css-vo4v8d > img, .css-vo5v8d > video, .css-vovo > img{
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.css-6v3hm6::before {
+    height: 0px;
+    content: "";
+    display: block;
+    padding-bottom: 181.081%;
+}
+.css-m6qmev {
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+    color: var(--chakra-colors-offblack-100);
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(43% - 2.5rem);
+            flex: 1 0 calc(43% - 2.5rem);
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    opacity: 1;
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+}
+.css-6v3hm6 {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    /*max-height: 226px;*/
+    background: var(--chakra-colors-transparent);
+}
+.css-6v3hm6 > :not(style) {
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.css-6v3hm6 > img{
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.css-1b0rwyo_copy {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    position: relative;
+    white-space: normal;
+    vertical-align: middle;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    line-height: 1.2;
+    border-radius: var(--chakra-radii-none);
+    font-weight: var(--chakra-fontWeights-normal);
+    -webkit-transition-property: var(--chakra-transition-property-common);
+    -o-transition-property: var(--chakra-transition-property-common);
+    transition-property: var(--chakra-transition-property-common);
+    -webkit-transition-duration: var(--chakra-transition-duration-normal);
+         -o-transition-duration: var(--chakra-transition-duration-normal);
+            transition-duration: var(--chakra-transition-duration-normal);
+    font-size: var(--chakra-fontSizes-md);
+    padding: 0px;
+    height: auto;
+    min-width: var(--chakra-sizes-10);
+    letter-spacing: 0.15px;
+    text-align: left;
+    -webkit-padding-start: 0.75rem;
+    padding-inline-start: 0.75rem;
+    -webkit-padding-end: 0.75rem;
+    padding-inline-end: 0.75rem;
+    padding-top: 0.5625rem;
+    padding-bottom: 0.5625rem;
+    margin-right: 0px;
+    color: var(--chakra-colors-white);
+}
+.css-odqpyi.css-1r4uo8r {
+    z-index: 3;
+    background: var(--chakra-colors-transparent);
+    color: var(--chakra-colors-offblack-100);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 73px;
+    top: 0px;
+    -webkit-transform: translateY(0px);
+        -ms-transform: translateY(0px);
+            transform: translateY(0px);
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+.css-1n43rb51, .css-5555{
+    width: 100%;
+    margin-left: 1.25rem;
+    padding-right: 0px;
+    color: var(--chakra-colors-offblack-100);
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(100% - 2.5rem);
+            flex: 1 0 calc(100% - 2.5rem);
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    opacity: 1;
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+}
+.css-vo5v8d1, .css-vovo{
+    position: relative;
+    /*height: 84%;*/
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    max-height: none;
+    background: var(--chakra-colors-transparent);
+}
+.css-vo5v8d1::before, .css-vovo::before {
+    height: 0px;
+    content: "";
+    display: block;
+    padding-bottom: 55.2239%;
+}
+.css-vo5v8d1 > img, .css-vo5v8d1 > video {
+    -o-object-fit: cover;
+       object-fit: cover;
+}
+.css-vo5v8d1 > :not(style), .css-vovo > :not(style) {
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.css-6v3hm51, .css-ninon, .css-mimom {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 0.5rem;
+    /* max-height: 279px; */
+    /*height: 84%;*/
+    background: var(--chakra-colors-transparent);
+}
+.css-6v3hm51 > :not(style), .css-ninon > :not(style), .css-mimom > :not(style) {
+    overflow: hidden;
+    position: absolute;
+    inset: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.css-m5qmev1, .css-56565 {
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+    color: var(--chakra-colors-offblack-100);
+    position: relative;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(43% - 2.5rem);
+            flex: 1 0 calc(43% - 2.5rem);
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    opacity: 1;
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+}
+.css-6v3hm51::before, .css-ninon::before, .css-mimom::before {
+    content: "";
+    display: block;
+    height: 0px;
+}
+
+.css-6v3hm5::before {
+    height: 0px;
+    content: "";
+    display: block;
+    padding-bottom: 181.081%;
+}
+.css-16b6tln img{
+    color: transparent; 
+    -o-object-position: 50% 50%; 
+       object-position: 50% 50%; 
+    -webkit-transform: translateZ(0px) scale(1); 
+            transform: translateZ(0px) scale(1); 
+    -webkit-backface-visibility: hidden; 
+            backface-visibility: hidden; 
+    -webkit-transition-delay: 0.1s; 
+         -o-transition-delay: 0.1s; 
+            transition-delay: 0.1s; 
+    opacity: 1; 
+    -webkit-transition-property: opacity, -webkit-transform; 
+    transition-property: opacity, -webkit-transform; 
+    -o-transition-property: transform, opacity; 
+    transition-property: transform, opacity; 
+    transition-property: transform, opacity, -webkit-transform; 
+    -webkit-transition-duration: 0.5s; 
+         -o-transition-duration: 0.5s; 
+            transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease-in-out; 
+         -o-transition-timing-function: ease-in-out; 
+            transition-timing-function: ease-in-out; 
+    -o-object-fit: cover; 
+       object-fit: cover; 
+    aspect-ratio: 1.77778 / 1;
+    width: 100%; 
+    height: 100%;
+}
+.css-1qjfqtk img{
+    color: transparent; 
+    -o-object-position: 50% 50%; 
+       object-position: 50% 50%; 
+    -webkit-transform: translateZ(0px) scale(1); 
+            transform: translateZ(0px) scale(1); 
+    -webkit-backface-visibility: hidden; 
+            backface-visibility: hidden; 
+    -webkit-transition-delay: 0.1s; 
+         -o-transition-delay: 0.1s; 
+            transition-delay: 0.1s; 
+    opacity: 1; 
+    -webkit-transition-property: opacity, -webkit-transform; 
+    transition-property: opacity, -webkit-transform; 
+    -o-transition-property: transform, opacity; 
+    transition-property: transform, opacity; 
+    transition-property: transform, opacity, -webkit-transform; 
+    -webkit-transition-duration: 0.5s; 
+         -o-transition-duration: 0.5s; 
+            transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease-in-out; 
+         -o-transition-timing-function: ease-in-out; 
+            transition-timing-function: ease-in-out; 
+    -o-object-fit: cover; 
+       object-fit: cover; 
+    aspect-ratio: 0.5625 / 1;
+    width: 100%; 
+    height: 100%;
+}
+.css-e027b1 img{
+    width: 100%; 
+    height: 100%;
+    color: transparent; 
+    -o-object-position: 50% 50%; 
+       object-position: 50% 50%; 
+    -webkit-transform: translateZ(0px) scale(1); 
+            transform: translateZ(0px) scale(1); 
+    -webkit-backface-visibility: hidden; 
+            backface-visibility: hidden; 
+    -webkit-transition-delay: 0.1s; 
+         -o-transition-delay: 0.1s; 
+            transition-delay: 0.1s; 
+    opacity: 1; 
+    -webkit-transition-property: opacity, -webkit-transform; 
+    transition-property: opacity, -webkit-transform; 
+    -o-transition-property: transform, opacity; 
+    transition-property: transform, opacity; 
+    transition-property: transform, opacity, -webkit-transform; 
+    -webkit-transition-duration: 0.5s; 
+         -o-transition-duration: 0.5s; 
+            transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease-in-out; 
+         -o-transition-timing-function: ease-in-out; 
+            transition-timing-function: ease-in-out; 
+    -o-object-fit: cover; 
+       object-fit: cover; 
+    aspect-ratio: 0.5925 / 1;
+}
+.css-bbbb {
+    width: 100%;
+    margin-left: 0px;
+    padding-right: 0px;
+    color: var(--chakra-colors-offblack-100);
+    position: relative;
+    /*flex: 1 0 calc(43% - 2.5rem);*/
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none;
+    opacity: 1;
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+}
+@media(min-width: 744px){
+    .css-q9xw1x1 {
+        width: var(--chakra-sizes-container-3xl);
+        -webkit-margin-start: auto;
+        margin-inline-start: auto;
+        -webkit-margin-end: auto;
+        margin-inline-end: auto;
+        max-width: 100%;
+        -webkit-padding-start: 1.25rem;
+        padding-inline-start: 1.25rem;
+        -webkit-padding-end: 1.25rem;
+        padding-inline-end: 1.25rem;
+        margin: auto;
+    }
+    .chakra-button.css-9rljy5{
+        display: none;
+    }
+    .css-1n43rb4 {
+        width: calc(41.6667% - 0.75rem);
+        margin-left: 0px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+    }
+    .css-vo4v8d {
+        margin-bottom: 1rem;
+    }
+    .css-vo4v8d::before {
+        padding-bottom: 60.2837%;
+    }
+    .css-m6qmev {
+        width: calc(16.6667% - 0.75rem);
+        margin-left: 0px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+    }
+    .css-6v3hm6::before {
+        padding-bottom: 176.471%;
+    }
+    .css-6v3hm6 {
+        margin-bottom: 1rem;
+    }
+    .css-1b0rwyo_copy{
+        margin-right: -0.75rem;
+    }
+    .css-odqpyi.css-1r4uo8r {
+        padding-top: 1.4375rem;
+        padding-bottom: 1.3125rem;
+        height: 90px;
+    }
+    .css-qodd0n .close{
+        display: none;
+    }
+    .css-1n43rb51, .css-5555{
+        width: calc(41.6667% - 0.75rem);
+        margin-left: 0px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+    }
+    .css-vo5v8d1, .css-vovo{
+        margin-bottom: 1rem;
+    }
+    .css-6v3hm51, .css-ninon, .css-mimom{
+        margin-bottom: 1rem;
+    }
+    .css-m5qmev1{
+        width: calc(16.6667% - 0.75rem);
+        margin-left: 0px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+    }
+    .css-56565{
+        width: calc(18.1% - 0.75rem);
+        margin-left: 0px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 auto;
+                flex: 0 0 auto;
+    }
+    .css-1ner643{
+        display: none;
+    }
+    .css-6v3hm51::before, .css-ninon::before, .css-mimom::before{
+        padding-bottom: calc(137% + 12px);
+    }
+    .css-197cu6f::before, .css-6v3hm5::before {
+        padding-bottom: calc(150% + 12px);
+    }
+    .css-vo5v8d::before, .css-vovo::before {
+        padding-bottom: 60.2837%;
+    }
+    .css-6v3hm6::before {
+        padding-bottom: calc(150% + 12px);
+    }
+    .css-1nq524h:hover img{
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+    }
+    .css-bbbb{
+        width: calc(16.7% - 0.75rem);
+    }
+    article.filter-item{
+        display: none!important;
+    }
+    .philosophycss .swiper{
+        display: none;
+    }
+}
+@media(min-width:1024px){
+    .css-q9xw1x1 {
+        padding-inline: 4.125rem;
+    }
+    .chakra-button.css-9rljy5{
+        display: none;
+    }
+    .css-1n43rb4 {
+        width: calc(33.3333% - 0.75rem);
+    }
+    .css-vo4v8d::before {
+        padding-bottom: 56.3084%;
+    }
+    .css-m6qmev {
+        width: calc(12.5% - 0.75rem);
+    }
+    .css-bbbb{
+        width: calc(12.5% - 0.75rem);
+    }
+    .css-1n43rb51, .css-5555{
+        width: calc(33.3333% - 0.75rem);
+    }
+    .css-vo5v8d1::before {
+        padding-bottom: 56.3084%;
+    }
+    .css-m5qmev1 {
+        width: calc(12.5% - 0.75rem);
+    }
+    .css-56565{
+         width: calc(13.35% - 0.75rem);
+    }
+    .css-6v3hm51::before, .css-ninon::before{
+        padding-bottom: calc(150% + 12px);
+    }
+    .css-mimom::before{
+        padding-bottom: calc(161% + 12px);
+    }
+    .css-197cu6f::before, .css-6v3hm5::before {
+        padding-bottom: calc(160% + 14px);
+    }
+    .different-margin{
+        width: calc(1.7 / 24* 100%);
+    }
+    .additional-margin1.hide, .additional-margin1.hide1, .additional-margin1.hide2, .additional-margin2.hide, .additional-margin1.hide3, .additional-margin2.hide1, .additional-margin1.hide4, .additional-margin2.hide2, .additional-margin1.hide5, .additional-margin2.hide3, .additional-margin1.hide6, .additional-margin3.hide, .additional-margin1.hide7, .additional-margin1.hide8, .additional-margin3.hide1, .additional-margin4.hide, .additional-margin1.hide9, .additional-margin3.hide2, .additional-margin4.hide1, .additional-margin1.hide10, .additional-margin1.hide11, .additional-margin1.hide12, .additional-margin1.hide13, .additional-margin1.hide14, .additional-margin1.hide15, .additional-margin1.hide16, .additional-margin1.hide17, .additional-margin1.hide18, .additional-margin1.hide19, .additional-margin1.hide20, .additional-margin1.hide21, .additional-margin1.hide22, .additional-margin3.hide3, .additional-margin1.hide23, .additional-margin3.hide4, .additional-margin4.hide2, .additional-margin2.hide1, .additional-margin2.hide4, .additional-margin2.hide5, .additional-margin2.hide6, .additional-margin2.hide7, .additional-margin2.hide8, .additional-margin2.hide9, .additional-margin2.hide10, .additional-margin2.hide11, .additional-margin2.hide12, .additional-margin2.hide13, .additional-margin1.hide24, .additional-margin2.hide14, .additional-margin3.hide5, .additional-margin4.hide3{
+        display: none!important;
+    }
+}
+@media(min-width: 1280px){
+    .css-165nstd-width{
+        width: calc((4/24*100%) - 0.75rem);
+    }
+}
+@media(max-width: 1279px){
+    .additional-margin-hide{
+        display: none!important;
+    }
+}
+@media(max-width: 1279px){
+    .additional-margin-hide{
+        display: none!important;
+    }
+}
+@media(max-width: 1023px){
+    .css-1noinxx {
+        margin-bottom: 5.8125rem;
+    }
+    .body-all-project .css-1ohsl24 p{
+        display: none;
+    }
+}
+@media(min-width: 744px) and (max-width: 1023px){
+    .additional-margin-hide{
+        display: block!important
+    }
+}
+@media(min-width: 744px) and (max-height: 564px){
+    .css-8xebi{
+        display: none;
+    }
+}
+.css-1a0odta img{
+    position: absolute;
+    /*height: 100%; */
+    height: 100vh; 
+    width: 100%;
+    inset: 0px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    /*object-position: 50% 50%;*/
+    color: transparent;
+    /*transform: translateZ(0px) scale(1);
+    backface-visibility: hidden;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-property: transform, opacity;
+    opacity: 1;*/
+}
+@media(min-width: 744px) and (max-height: 510px){
+    .css-7ddg45{
+        overflow-y: auto;
+    }
+    .css-1a0odta img{
+        height: 100%;
+    }
+    .css-8rc4sr.css-odqpyi .css-13zcjoi{
+        background: #fff;
+        padding-top: 1.9375rem;
+        margin-bottom: 1.25rem;
+    }
+    .css-8rc4sr.css-odqpyi .css-1vo9grg_copy{
+        padding-top: 0;
+        margin-top: -3.4375rem;
+        -webkit-transform: translateY(21px);
+            -ms-transform: translateY(21px);
+                transform: translateY(21px);
+        padding-bottom: 0;
+        -webkit-transition: unset;
+        -o-transition: unset;
+        transition: unset;
+    }
+    .css-80o3fs{
+        -webkit-transition: unset;
+        -o-transition: unset;
+        transition: unset;
+    }
+}
+@media(max-width: 743px) and (max-height: 560px){
+    .css-8rc4sr.css-odqpyi{
+        background: #fff;
+    }
+    .css-7ddg45{
+        overflow-y: auto;
+    }
+}
+@media(max-width: 743px){
+    .chakra-button.css-80o3fs{
+        display: none;
+    }
+    .css-k008qs{
+        display: none;
+    }
+    .css-13zcjoi{
+        display: none;
+    }
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        width: calc(100% / 3.7);
+    }
+    .css-1jrs0a7{
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+    }
+    .css-qodd0n .close{
+        display: none;
+    }
+    .css-1n43rb5-hide, .css-m5qmev-hide, .css-9znc2p-hide, .css-1n43rb4, .css-m6qmev, .css-1n43rb51, .css-m5qmev1, .css-5555, .css-56565, .css-bbbb{
+        display: none;
+    }
+    .different-margin{
+        display: none!important;
+    }
+    .css-9rljy5-disable{
+        visibility: hidden;
+    }
+    .css-1ner643 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        position: relative;
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
+        opacity: 1;
+        -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+        -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+        transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    }
+    .css-vo5v8d, .css-vovo{
+        position: relative;
+        height: auto;
+    }
+    .css-172jchs {
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 0.5rem;
+        /*max-height: 388px;*/
+        background: var(--chakra-colors-transparent);
+    }
+    .css-172jchs::before {
+        height: 0px;
+        content: "";
+        display: block;
+        /*padding-bottom: 181.081%;*/
+    }
+    .css-1n43rb5, .css-5555 {
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 95%;
+                flex: 1 0 95%;
+    }
+    .css-m5qmev, .css-9znc2p, .css-56565, .css-bbbb {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 35%;
+                flex: 0 0 35%;
+    }
+    .m5qmev-height{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 31.1%;
+                flex: 0 0 31.1%;
+    }
+    .css-9znc2p-height{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 33.28%;
+                flex: 0 0 33.28%;
+    }
+    .m5qmev1 {
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 33.3%;
+                flex: 0 0 33.3%;
+    }
+    .m5qmev2{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 29.55%;
+                flex: 0 0 29.55%;
+    }
+    .img-css{
+        position: absolute;
+        height: 100%;
+        width: 100%; 
+        inset: 0px;
+        -o-object-position: 50% 50%;
+           object-position: 50% 50%; 
+        color: transparent;
+        -webkit-transform: translateZ(0px) scale(1);
+                transform: translateZ(0px) scale(1);
+        -webkit-backface-visibility: hidden;
+                backface-visibility: hidden; 
+        -webkit-transition-delay: 0.1s; 
+             -o-transition-delay: 0.1s; 
+                transition-delay: 0.1s; 
+        opacity: 1;
+        -webkit-transition-property: opacity, -webkit-transform;
+        transition-property: opacity, -webkit-transform;
+        -o-transition-property: transform, opacity;
+        transition-property: transform, opacity;
+        transition-property: transform, opacity, -webkit-transform; 
+        -webkit-transition-duration: 0.5s; 
+             -o-transition-duration: 0.5s; 
+                transition-duration: 0.5s; 
+        -webkit-transition-timing-function: ease-in-out; 
+             -o-transition-timing-function: ease-in-out; 
+                transition-timing-function: ease-in-out;
+    }
+    .css-1nq524h{
+        height: 52.5vw;
+    }
+    .css-m5qmev-width, .css-9znc2p-width{
+        -webkit-box-flex: 0;
+            -ms-flex: 0 0 33.333333%;
+                flex: 0 0 33.333333%;
+    }
+    .css-69lmjl{
+        position: relative;
+        overflow: hidden;
+        margin-bottom: 0.5rem;
+    }
+    .css-69lmjl::before{
+        height: 0px;
+        content: "";
+        display: block;
+    }
+    .body-all-project .css-9znc2p, .body-all-project .m5qmev1, .body-all-project .m5qmev2{
+        margin-right: 1.25rem;
+    }
+    .philosophycss .css-1seq1g9{
+        display: none;
+    }
+}
+.css-165nstd img, .css-2x3jf img{
+    -webkit-transition: -webkit-transform 0.5s 0.1s ease-in-out;
+    transition: -webkit-transform 0.5s 0.1s ease-in-out;
+    -o-transition: transform 0.5s 0.1s ease-in-out;
+    transition: transform 0.5s 0.1s ease-in-out;
+    transition: transform 0.5s 0.1s ease-in-out, -webkit-transform 0.5s 0.1s ease-in-out;
+}
+
+.css-4s4697{
+    display: none;
+    /*transform: translateY(-100%) translateZ(0px);*/
+    -webkit-transform: translateY(0%) translateZ(0px);
+            transform: translateY(0%) translateZ(0px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: var(--chakra-colors-white);
+    z-index: 2;
+}
+.css-4s4697.active{
+    display: block;
+    -webkit-transform: translateY(0%) translateZ(0px);
+            transform: translateY(0%) translateZ(0px);
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    background: var(--chakra-colors-white);
+    z-index: 2;
+}
+.css-14nav46{
+    -webkit-transform: translateX(0%) translateZ(0px);
+            transform: translateX(0%) translateZ(0px);
+    -webkit-transition: 0.3s 0.45s;
+    -o-transition: 0.3s 0.45s;
+    transition: 0.3s 0.45s;
+}
+.css-14nav46.active{
+    -webkit-transform: translateX(100%) translateZ(0px);
+            transform: translateX(100%) translateZ(0px);
+}
+.css-k008qs.hide{
+    display: none;
+}
+/*.noinxx-svg {
+    color: #fff;
+}*/
+.css-1noinxx{
+    /*visibility: hidden;*/
+    opacity: 0;
+    /*transition: 0.3s 1s;*/
+    /*animation: textBottom 0.3s 1s;*/
+    -webkit-transform: translateX(-10px) translateZ(0px);
+            transform: translateX(-10px) translateZ(0px);
+}
+.css-1noinxx.show{
+    /*visibility: visible;*/
+    /*transform: translateX(0px) translateZ(0px);*/
+    opacity: 1;
+    -webkit-transition: 0.5s 0.7s;
+    -o-transition: 0.5s 0.7s;
+    transition: 0.5s 0.7s;
+    /*animation: textBottom 0.3s 0.3s;*/
+    -webkit-transform: translateX(0px) translateZ(0px);
+            transform: translateX(0px) translateZ(0px);
+}
+.noinxx-svg path, .sing-svg path{
+    stroke: #fff;
+    stroke-dasharray: 0px 0px;
+}
+.ixwp1l-faroe{
+    color: #fff;
+}
+.css-1qj3vgi{
+    opacity: 0;
+}
+.css-1qj3vgi.show{
+    opacity: 1;
+}
+.css-1qj3vgi li{
+    opacity: 0;
+    -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+            transform: translateX(-10px);
+}
+
+/*.css-3u4rzc::before{
+    margin-bottom: -0.3125rem;
+}*/
+
+.css-rswfdo{
+    -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+            transform: translateX(-10px);
+    /*transition: 0.5s 0.6s;*/
+    opacity: 0;
+}
+.css-rswfdo.show{
+    opacity: 1;
+}
+.css-rswfdo.show:nth-child(1){
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0.3s 0.7s;
+    -o-transition: 0.3s 0.7s;
+    transition: 0.3s 0.7s;
+}
+.css-rswfdo.show:nth-child(2){
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0.3s 0.8s;
+    -o-transition: 0.3s 0.8s;
+    transition: 0.3s 0.8s;
+}
+.css-rswfdo.show:nth-child(3){
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0.3s 0.9s;
+    -o-transition: 0.3s 0.9s;
+    transition: 0.3s 0.9s;
+}
+.css-rswfdo.show:nth-child(4){
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0.3s 1s;
+    -o-transition: 0.3s 1s;
+    transition: 0.3s 1s;
+}
+.css-rswfdo.show:nth-child(5){
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0.3s 1.1s;
+    -o-transition: 0.3s 1.1s;
+    transition: 0.3s 1.1s;
+}
+.css-rswfdo.show:nth-child(6){
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0.3s 1.2s;
+    -o-transition: 0.3s 1.2s;
+    transition: 0.3s 1.2s;
+}
+.chakra-ui-light.hidden{
+    position: fixed;
+    width: 100%;
+    /*overflow-y: hidden;*/
+}
+
+.css-1mfo8lb{
+    -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+            transform: translateX(-10px);
+    opacity: 0;
+}
+.css-1mfo8lb.show{
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0.3s 1.3s;
+    -o-transition: 0.3s 1.3s;
+    transition: 0.3s 1.3s;
+    opacity: 1;
+}
+.css-8sh8uf{
+    -webkit-transform: translateX(-10px);
+        -ms-transform: translateX(-10px);
+            transform: translateX(-10px);
+    opacity: 0;
+}
+.css-8sh8uf.show{
+    -webkit-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+            transform: translateX(0px);
+    -webkit-transition: 0.3s 1.3s;
+    -o-transition: 0.3s 1.3s;
+    transition: 0.3s 1.3s;
+    opacity: 1;
+}
+.css-1b0rwyo_copy.css-17xzk5j_copy svg{
+    color: #0a0a0a;
+}
+.css-149czk{
+    /*border-image: linear-gradient(90deg, currentcolor 100%, transparent 0%) 10 / 1 / 0 stretch;*/
+    border-bottom-style: none;
+}
+.css-1vo9grg_copy {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    position: relative;
+    white-space: normal;
+    vertical-align: middle;
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    line-height: 1.2;
+    border-radius: var(--chakra-radii-none);
+    font-weight: var(--chakra-fontWeights-normal);
+    -webkit-transition-property: var(--chakra-transition-property-common);
+    -o-transition-property: var(--chakra-transition-property-common);
+    transition-property: var(--chakra-transition-property-common);
+    -webkit-transition-duration: var(--chakra-transition-duration-normal);
+         -o-transition-duration: var(--chakra-transition-duration-normal);
+            transition-duration: var(--chakra-transition-duration-normal);
+    font-size: var(--chakra-fontSizes-md);
+    -webkit-padding-start: var(--chakra-space-4);
+            padding-inline-start: var(--chakra-space-4);
+    -webkit-padding-end: var(--chakra-space-4);
+            padding-inline-end: var(--chakra-space-4);
+    padding: 0.5625rem 0px;
+    height: auto;
+    min-width: var(--chakra-sizes-10);
+    letter-spacing: 0.15px;
+    text-align: left;
+    z-index: 1;
+    color: var(--chakra-colors-offblack-100);
+}
+.css-1rxxw9_copy{
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex: 1;
+     -webkit-box-flex: 1;
+             flex: 1;
+     margin-bottom: 0.6875rem;
+     -webkit-box-pack: end;
+     -ms-flex-pack: end;
+     justify-content: flex-end;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     position: relative;
+     /*transition: 0.3s ease-in-out;*/
+}
+.css-rswfdo:nth-child(1) .css-1a7q1f svg{
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
+}
+.css-rswfdo:nth-child(2) .css-1a7q1f svg{
+    -webkit-transform: translateY(-3px);
+        -ms-transform: translateY(-3px);
+            transform: translateY(-3px);
+}
+.css-rswfdo:nth-child(3) .css-1a7q1f svg{
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
+}
+.css-rswfdo:nth-child(4) .css-1a7q1f svg{
+    -webkit-transform: translateY(-6px);
+        -ms-transform: translateY(-6px);
+            transform: translateY(-6px);
+}
+.css-rswfdo:nth-child(5) .css-1a7q1f svg{
+    -webkit-transform: translateY(-4px);
+        -ms-transform: translateY(-4px);
+            transform: translateY(-4px);
+}
+.css-rswfdo:nth-child(5) .css-1a7q1f svg{
+    -webkit-transform: translateY(-4px);
+        -ms-transform: translateY(-4px);
+            transform: translateY(-4px);
+}
+.css-rswfdo:nth-child(6) .css-1a7q1f svg{
+    -webkit-transform: translateY(-4px);
+        -ms-transform: translateY(-4px);
+            transform: translateY(-4px);
+}
+.css-rswfdo .css-80p58o svg path{
+    stroke-width: 0.5px;
+    color: #0a0a0a;
+}
+.css-rswfdo .css-80p58o svg path.path_underLine9{
+    stroke-width: 0.3px;
+    color: #0a0a0a;
+}
+.css-rswfdo .css-80p58o svg path.path_underLine11{
+    stroke-width: 0.9px;
+    color: #0a0a0a;
+}
+.css-rswfdo .css-80p58o svg path.path_underLine13{
+    stroke-width: 0.9px;
+    color: #0a0a0a;
+}
+.css-rswfdo .css-80p58o svg path.path_underLine14{
+    stroke-width: 2px;
+    color: #0a0a0a;
+}
+.css-rswfdo .css-80p58o svg path.path_underLine16{
+    stroke-width: 1px;
+    color: #0a0a0a;
+}
+.css-149czk svg .path_underLine{
+    /*stroke-dasharray: 0px 0px;*/
+    stroke-dashoffset: 0px;
+    color: #0a0a0a;
+}
+.css-149czk svg .path_underLine1{
+    stroke-dashoffset: 0px;
+    stroke-width: 0.7px;
+    color: #0a0a0a;
+}
+.css-149czk svg .path_underLine3{
+    stroke-dashoffset: 0px;
+    stroke-width: 0.8px;
+    color: #0a0a0a;
+}
+.css-149czk svg .path_underLine8{
+    stroke-dashoffset: 0px;
+    stroke-width: 0.3px;
+    color: #0a0a0a;
+}
+.css-149czk svg .path_underLine10{
+    stroke-dashoffset: 0px;
+    stroke-width: 0.3px;
+    color: #0a0a0a;
+}
+.css-149czk svg .path_underLine12{
+    stroke-dashoffset: 0px;
+    stroke-width: 0.8px;
+    color: #0a0a0a;
+}
+.css-1r87uzy svg .path_underLine15{
+    stroke-dashoffset: 0px;
+    stroke-width: 0.6px;
+    color: #7a6f67;
+}
+.css-1r87uzy svg{
+    -webkit-transform: translateY(-2px);
+        -ms-transform: translateY(-2px);
+            transform: translateY(-2px);
+}
+.css-1rxxw9_copy::before {
+     content: "";
+     position: absolute;
+     -webkit-align-self: flex-end;
+     -ms-flex-item-align: flex-end;
+     align-self: flex-end;
+     height: 3px;
+     width: 100%;
+     background-color: var(--chakra-colors-white);
+     -webkit-transform: translateY(40%);
+     -ms-transform: translateY(40%);
+     transform: translateY(40%);
+}
+.css-3u4rzc_copy {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 0%;
+            flex: 1 1 0%;
+    margin-bottom: 1rem;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+        justify-content: flex-end;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    position: relative;
+}
+.css-3u4rzc_copy::before {
+    content: "";
+    position: absolute;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    height: 3px;
+    width: 100%;
+    margin-bottom: -0.3125rem;
+    background-color: var(--chakra-colors-offblack-100);
+    -webkit-transform: translateY(40%);
+        -ms-transform: translateY(40%);
+            transform: translateY(40%);
+}
+.css-3u4rzc::before {
+    content: "";
+    position: absolute;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    height: 3px;
+    width: 100%;
+    background-color: var(--chakra-colors-offblack-100);
+    -webkit-transform: translateY(40%);
+        -ms-transform: translateY(40%);
+            transform: translateY(40%);
+}
+/*.css-3u4rzc{
+    margin-bottom: 1.3125rem;
+}*/
+/*.css-17xzk5j.css-1b0rwyo_copy{
+    color: #0a0a0a;
+}*/
+.css-1oohl0p path:nth-child(3){
+    stroke-dasharray: 1px 1px;
+}
+.css-ql26rf.css-1r4uo8r{
+    background: var(--chakra-colors-transparent);
+}
+.css-odqpyi .css-17xzk5j{
+    color: #fff;
+}
+.css-ql26rf .css-17xzk5j{
+    color: #0a0a0a;
+}
+.css-8rc4sr .css-17xzk5j{
+    color: #fff;
+}
+.css-8rc4sr.css-odqpyi .css-1ic147l .css-1oohl0p{
+    color: #0a0a0a;
+}
+.css-8rc4sr.css-odqpyi .css-1vo9grg, .css-8rc4sr.css-odqpyi .css-3u4rzc::before{
+    color: #0a0a0a;
+}
+.css-odqpyi .css-3u4rzc::before{
+    color: #fff;
+}
+.css-8rc4sr.css-odqpyi .css-3u4rzc_copy::before{
+    color: #0a0a0a;
+}
+.css-8rc4sr.css-odqpyi .css-3u4rzc.css-3u4rzc_copy::before{
+    background-color: #0a0a0a;
+}
+.css-8rc4sr .css-3u4rzc::before{
+    background-color: #fff;
+}
+.css-8rc4sr .css-1vo9grg{
+    color: #fff;
+}
+.css-odqpyi .css-1vo9grg{
+    color: #fff;
+}
+.css-odqpyi .css-3u4rzc::before{
+    background-color: #fff;
+}
+.css-odqpyi .css-css-1vo9grg_copy{
+    color: #0a0a0a;
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+/*.css-odqpyi .css-1rxxw9::before{
+    background-color: #0a0a0a;
+}*/
+/*.css-odqpyi .css-1rxxw9.css-1rxxw9_copy::before{
+    background-color: #fff;
+}*/
+
+.css-odqpyi .css-1rxxw9_copy::before{
+    background-color: #0a0a0a;
+}
+.css-odqpyi .css-3u4rzc::before{
+    background-color: #fff;
+}
+
+
+.css-ql26rf .css-1rxxw9_copy::before{
+    background-color: #0a0a0a;
+}
+
+
+/*.css-ql26rf .css-80o3fs_copy{
+    position: relative;
+    color: #0a0a0a;
+    z-index: 1;
+}
+.css-odqpyi .css-80o3fs_copy{
+    color: #0a0a0a;
+}
+.css-8rc4sr .css-80o3fs_copy{
+    position: relative;
+    z-index: 1;
+}*/
+
+
+.css-8rc4sr {
+    z-index: 3;
+    background: var(--chakra-colors-transparent);
+    color: var(--chakra-colors-white);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    position: fixed;
+    width: 100%;
+    height: 73px;
+    top: 0px;
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+    -webkit-transition-delay: unset;
+         -o-transition-delay: unset;
+            transition-delay: unset;
+}
+.css-odqpyi {
+    -webkit-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+    transition: 0.3s ease-in-out;
+}
+@media(max-width: 743px){
+    .css-ql26rf .css-9rljy5{
+        color: #0a0a0a;
+    }
+    .css-8rc4sr .css-9rljy5{
+        color: #fff;
+    }
+    .css-8rc4sr.css-odqpyi .css-9rljy5{
+        color: #0a0a0a;
+    }
+    .css-9rljy5{
+        -webkit-padding-start: 0.75rem;
+                padding-inline-start: 0.75rem;
+        -webkit-padding-end: 0.75rem;
+                padding-inline-end: 0.75rem;
+    }
+    .css-fxsfqs{
+        display: none;
+    }
+    .css-bfd7uw h2{
+        visibility: hidden;
+    }
+    .css-3u4rzc_copy{
+        margin-bottom: 0.6875rem;
+    }
+    .css-3u4rzc_copy::before {
+        margin-bottom: 0;
+    }
+    .css-rswfdo.show:nth-child(1){
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+        -webkit-transition: 0.3s 0.2s;
+        -o-transition: 0.3s 0.2s;
+        transition: 0.3s 0.2s;
+    }
+    .css-rswfdo.show:nth-child(2){
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+        -webkit-transition: 0.3s 0.3s;
+        -o-transition: 0.3s 0.3s;
+        transition: 0.3s 0.3s;
+    }
+    .css-rswfdo.show:nth-child(3){
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+        -webkit-transition: 0.3s 0.4s;
+        -o-transition: 0.3s 0.4s;
+        transition: 0.3s 0.4s;
+    }
+    .css-rswfdo.show:nth-child(4){
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+        -webkit-transition: 0.3s 0.5s;
+        -o-transition: 0.3s 0.5s;
+        transition: 0.3s 0.5s;
+    }
+    .css-rswfdo.show:nth-child(5){
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+        -webkit-transition: 0.3s 0.6s;
+        -o-transition: 0.3s 0.6s;
+        transition: 0.3s 0.6s;
+    }
+    .css-rswfdo.show:nth-child(6){
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+        -webkit-transition: 0.3s 0.7s;
+        -o-transition: 0.3s 0.7s;
+        transition: 0.3s 0.7s;
+    }
+    .css-1mfo8lb.show{
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+        -webkit-transition: 0.3s 0.8s;
+        -o-transition: 0.3s 0.8s;
+        transition: 0.3s 0.8s;
+        opacity: 1;
+    }
+    .css-8sh8uf.show{
+        -webkit-transform: translateX(0px);
+            -ms-transform: translateX(0px);
+                transform: translateX(0px);
+        -webkit-transition: 0.3s 0.9s;
+        -o-transition: 0.3s 0.9s;
+        transition: 0.3s 0.9s;
+        opacity: 1;
+    }
+    .filter-big, .forReveal14-hide, .forReveal22-hide, .forReveal23-hide{
+        display: none!important;
+    }
+    .body-all-project .css-grid span, .body-all-project .css-list span{
+        display: none;
+    }
+    .contact-css .css-1cd08av {
+        gap: 0.75rem;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        -ms-flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+                flex-direction: column;
+        height: 100%;
+    }
+    /*.additional-margin1.hide, .additional-margin1.hide1, .additional-margin1.hide2, .additional-margin2.hide, .additional-margin1.hide3, .additional-margin2.hide1, .additional-margin1.hide4, .additional-margin2.hide2, .additional-margin1.hide5, .additional-margin2.hide3, .additional-margin1.hide6, .additional-margin3.hide, .additional-margin1.hide7, .additional-margin1.hide8, .additional-margin3.hide1, .additional-margin4.hide, .additional-margin1.hide9, .additional-margin3.hide2, .additional-margin4.hide1, .additional-margin1.hide10, .additional-margin1.hide11, .additional-margin1.hide12, .additional-margin1.hide13, .additional-margin1.hide14, .additional-margin1.hide15, .additional-margin1.hide16, .additional-margin1.hide17, .additional-margin1.hide18, .additional-margin1.hide19, .additional-margin1.hide20, .additional-margin1.hide21, .additional-margin1.hide22, .additional-margin3.hide3, .additional-margin1.hide23, .additional-margin3.hide4, .additional-margin4.hide2, .additional-margin2.hide1, .additional-margin2.hide4, .additional-margin2.hide5, .additional-margin2.hide6, .additional-margin2.hide7, .additional-margin2.hide8, .additional-margin2.hide9, .additional-margin2.hide10, .additional-margin2.hide11, .additional-margin2.hide12, .additional-margin2.hide13, .additional-margin1.hide24, .additional-margin2.hide14{
+        display: none!important;
+    }*/
+}
+.css-c77f2k{
+    position: absolute;
+    top: 3px;
+    left: 100%;
+}
+.css-ql26rf .css-1b0rwyo_copy .close{
+    color: #0a0a0a;
+}
+.css-zqkl8g{
+    display: none;
+}
+.css-8rc4sr.css-ql26rf{
+    background: #fff;
+}
+.css-8rc4sr .close{
+    color: #0a0a0a;
+}
+.css-zqkl8g {
+    top: 0px;
+}
+.css-1ic147l.z_index, .css-80o3fs.z_index, .css-k008qs.z_index, .css-1vo9grg.z_index, .css-1rxxw9.z_index::before, .css-1b0rwyo_copy.z_index{
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+}
+.css-1xmghhf {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+.swiper-pagination-bullet{
+    -webkit-transition: opacity 0.3s 0.3s ease-out;
+    -o-transition: opacity 0.3s 0.3s ease-out;
+    transition: opacity 0.3s 0.3s ease-out;
+}
+.swiper-button-next, .swiper-button-prev {
+    margin-top: calc(23px - (var(--swiper-navigation-size)/ 2));
+}
+.swiper-button-next svg, .swiper-button-prev svg{
+    width: 87%;
+}
+.swiper-pagination > span{
+    pointer-events: all;
+}
+
+
+
+
+.forReveal, .forReveal5, .forReveal10, .forReveal15, .forReveal16, .forReveal21 {
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+}
+.forReveal1, .forReveal6, .forReveal11, .forReveal17, .forReveal22, .forReveal26 {
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+}
+.forReveal2, .forReveal7, .forReveal12, .forReveal18, .forReveal23, .forReveal27 {
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+}
+.forReveal3, .forReveal8, .forReveal13, .forReveal19, .forReveal24{
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s;
+}
+.forReveal4, .forReveal9, .forReveal14, .forReveal20, .forReveal25 {
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s;
+}
+.reveal, .reveal1, .reveal2, .reveal3, .reveal4, .reveal5, .reveal6, .reveal7, .reveal8, .reveal9, .reveal10, .reveal11, .reveal12, .reveal13, .reveal14, .reveal15, .reveal16, .reveal17, .reveal18, .reveal19, .reveal20, .reveal21, .reveal22, .reveal23, .reveal24, .reveal25, .reveal26, .reveal27{
+    opacity: 0;
+    -webkit-transform: translateY(100px);
+        -ms-transform: translateY(100px);
+            transform: translateY(100px);
+}
+
+
+.css-1b0ybnk {
+    font-family: var(--chakra-fonts-body);
+    font-weight: 450;
+    font-size: var(--chakra-fontSizes-md);
+    line-height: 1.25rem;
+    letter-spacing: 0.12px;
+    display: inline;
+    position: relative;
+    overflow: hidden;
+    -o-border-image: unset;
+       border-image: unset;
+    border-bottom-width: unset;
+    border-bottom-style: unset;
+    border-top: unset;
+    border-right: unset;
+    border-left: unset;
+}
+.css-1iaync3::before{
+    padding-bottom: 0;
+}
+.css-1qiu1u3 .css-c16j1s svg g{
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none; 
+    -webkit-transform-origin: 261.225px 41.57px; 
+        -ms-transform-origin: 261.225px 41.57px; 
+            transform-origin: 261.225px 41.57px;
+}
+.css-uv81vk {
+    color: var(--chakra-colors-warmgrey-100);
+}
+.css-contact, .css-contact-home{
+    position: relative;
+}
+.css-contact-home::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 17px;
+    background-color: #7a6f67;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.css-contact::before, .body-project .css-view-gallery::before, .body-project .read-more-button span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.body-project .css-93y0ho span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 15px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.body-project .css-close::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 28px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.body-project .swiper-1 .swiper-button-prev span::before, .body-project .swiper-1 .swiper-button-next span::before, .body-project .swiper .swiper-button-prev span::before, .body-project .swiper .swiper-button-next span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 17px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.body-all-project .filter-label .chakra-checkbox__label .chakra-text{
+    position: relative;
+}
+.body-all-project .filter-label .chakra-checkbox__label .chakra-text::before, .body-all-project .button-a-z span::before, .body-all-project .button-z-a span::before, .body-all-project .button-oldest span::before, .body-all-project .button-latest span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.body-all-project .list-container .css-anmm3a::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 38px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.35s ease-in-out;
+    transition: -webkit-transform 0.35s ease-in-out;
+    -o-transition: transform 0.35s ease-in-out;
+    transition: transform 0.35s ease-in-out;
+    transition: transform 0.35s ease-in-out, -webkit-transform 0.35s ease-in-out;
+}
+.body-all-project .button-a-z span.under-line::before, .body-all-project .button-z-a span.under-line::before, .body-all-project .button-oldest span.under-line::before, .body-all-project .button-latest span.under-line::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.body-all-project .css-active span::before, .body-all-project .chakra-button.css-icznz7 span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 19px;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.css-1a7q1f span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 23px;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #0a0a0a;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.partof-menu .css-1r87uzy::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #7a6f67;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.css-rswfdo .underl::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 23px;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #7a6f67;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.css-8sh8uf .underl::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #7a6f67;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.body-all-project .button-filter span::before, .body-all-project .button-sort span::before, .body-all-project .button-search span::before, .body-all-project .css-list.css-vldfbe span::before, .body-all-project .css-grid.css-1vww46y span::before, .body-all-project .clear-button.show span::before, .body-all-project .sort-button-filter.show-a-z span::before, .body-all-project .sort-button-filter.show-z-a span::before, .body-all-project .sort-button-filter.show-oldest span::before, .body-all-project .sort-button-filter.show-latest span::before, .body-all-project .clear-button.show1 span::before, .body-all-project .clear-button.show2 span::before, .body-all-project .clear-button.show3 span::before, .body-all-project .clear-button.show4 span::before, .body-all-project .clear-button.show5 span::before, .body-all-project .clear-button.show6 span::before, .body-all-project .clear-button.show7 span::before, .body-all-project .clear-button.show8 span::before, .body-all-project .clear-button.show9 span::before, .body-all-project .clear-button.show10 span::before, .body-all-project .clear-button.show11 span::before, .body-all-project .clear-button.show12 span::before, .body-all-project .clear-button.show13 span::before, .body-all-project .clear-button.show14 span::before, .body-all-project .clear-button.show15 span::before, .body-all-project .clear-button.show16 span::before, .body-all-project .clear-button.show17 span::before, .body-all-project .clear-button.show18 span::before, .body-all-project .clear-button.show19 span::before, .body-all-project .clear-button.show20 span::before, .body-all-project .clear-button.show21 span::before, .body-all-project .clear-button.show22 span::before, .body-all-project .clear-button.show23 span::before, .body-all-project .clear-button.show24 span::before, .body-all-project .clear-button.show25 span::before, .body-all-project .clear-button.show26 span::before, .body-all-project .clear-button.show27 span::before, .body-all-project .clear-button.show28 span::before, .philosophycss .css-13is9uc span::before, .about-css .chakra-button.css-mommo4 span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.body-all-project .css-ql26rf .css-active span::before{
+    background-color: #000;
+}
+/* Hover effect for devices that support hover */
+@media (hover: hover) and (pointer: fine) {
+    .css-contact:hover::before, .css-contact-home:hover::before, .css-view-gallery:hover::before, .body-project .read-more-button:hover span::before, .body-project .css-93y0ho span:hover::before, .body-all-project .css-active span:hover::before,  .body-all-project .button-filter span:hover::before, .body-all-project .button-sort span:hover::before, .body-all-project .button-search span:hover::before, .body-all-project .css-list.css-vldfbe span:hover::before, .body-all-project .css-grid.css-1vww46y span:hover::before, .body-all-project .button-a-z span.under-line:hover::before, .body-all-project .button-z-a span.under-line:hover::before, .body-all-project .button-oldest span.under-line:hover::before,  .body-all-project .button-latest span.under-line:hover::before, .body-all-project .clear-button.show span:hover::before, .body-all-project .sort-button-filter.show-a-z span:hover::before, .body-all-project .sort-button-filter.show-z-a span:hover::before, .body-all-project .sort-button-filter.show-oldest span:hover::before, .body-all-project .sort-button-filter.show-latest span:hover::before, .body-all-project .clear-button.show1 span:hover::before, .body-all-project .clear-button.show2 span:hover::before, .body-all-project .clear-button.show3 span:hover::before, .body-all-project .clear-button.show4 span:hover::before, .body-all-project .clear-button.show5 span:hover::before, .body-all-project .clear-button.show6 span:hover::before, .body-all-project .clear-button.show7 span:hover::before, .body-all-project .clear-button.show8 span:hover::before, .body-all-project .clear-button.show9 span:hover::before, .body-all-project .clear-button.show10 span:hover::before, .body-all-project .clear-button.show11 span:hover::before, .body-all-project .clear-button.show12 span:hover::before, .body-all-project .clear-button.show13 span:hover::before, .body-all-project .clear-button.show14 span:hover::before, .body-all-project .clear-button.show15 span:hover::before, .body-all-project .clear-button.show16 span:hover::before, .body-all-project .clear-button.show17 span:hover::before, .body-all-project .clear-button.show18 span:hover::before, .body-all-project .clear-button.show19 span:hover::before, .body-all-project .clear-button.show20 span:hover::before, .body-all-project .clear-button.show21 span:hover::before, .body-all-project .clear-button.show22 span:hover::before, .body-all-project .clear-button.show23 span:hover::before, .body-all-project .clear-button.show24 span:hover::before, .body-all-project .clear-button.show25 span:hover::before, .body-all-project .clear-button.show26 span:hover::before, .body-all-project .clear-button.show27 span:hover::before, .body-all-project .clear-button.show28 span:hover::before, .body-all-project .chakra-button.css-icznz7 span:hover::before, .css-1a7q1f span:hover::before, .partof-menu .css-1r87uzy:hover::before, .philosophycss .css-13is9uc span:hover::before, .about-css .chakra-button.css-mommo4 span:hover::before {
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+                transform-origin: right;
+    }
+    .css-contact:not(:hover)::before, .css-contact-home:not(:hover)::before, .css-view-gallery:not(:hover)::before, .body-project .read-more-button:not(:hover) span::before, .body-project .css-93y0ho span:not(:hover)::before, .body-all-project .css-active span:not(:hover)::before, .body-all-project .button-filter span:not(:hover)::before, .body-all-project .button-sort span:not(:hover)::before, .body-all-project .button-search span:not(:hover)::before, .body-all-project .css-list.css-vldfbe span:not(:hover)::before, .body-all-project .css-grid.css-1vww46y span:not(:hover)::before, .body-all-project .button-a-z span.under-line:not(:hover)::before, .body-all-project .button-z-a span.under-line:not(:hover)::before, .body-all-project .button-oldest span.under-line:not(:hover)::before, .body-all-project .button-latest span.under-line:not(:hover)::before, .body-all-project .clear-button.show span:not(:hover)::before, .body-all-project .sort-button-filter.show-a-z span:not(:hover)::before, .body-all-project .sort-button-filter.show-z-a span:not(:hover)::before, .body-all-project .sort-button-filter.show-oldest span:not(:hover)::before, .body-all-project .sort-button-filter.show-latest span:not(:hover)::before, .body-all-project .clear-button.show1 span:not(:hover)::before, .body-all-project .clear-button.show2 span:not(:hover)::before, .body-all-project .clear-button.show3 span:not(:hover)::before, .body-all-project .clear-button.show4 span:not(:hover)::before, .body-all-project .clear-button.show5 span:not(:hover)::before, .body-all-project .clear-button.show6 span:not(:hover)::before, .body-all-project .clear-button.show7 span:not(:hover)::before, .body-all-project .clear-button.show8 span:not(:hover)::before, .body-all-project .clear-button.show9 span:not(:hover)::before, .body-all-project .clear-button.show10 span:not(:hover)::before, .body-all-project .clear-button.show11 span:not(:hover)::before, .body-all-project .clear-button.show12 span:not(:hover)::before, .body-all-project .clear-button.show13 span:not(:hover)::before, .body-all-project .clear-button.show14 span:not(:hover)::before, .body-all-project .clear-button.show15 span:not(:hover)::before, .body-all-project .clear-button.show16 span:not(:hover)::before, .body-all-project .clear-button.show17 span:not(:hover)::before, .body-all-project .clear-button.show18 span:not(:hover)::before, .body-all-project .clear-button.show19 span:not(:hover)::before, .body-all-project .clear-button.show20 span:not(:hover)::before, .body-all-project .clear-button.show21 span:not(:hover)::before, .body-all-project .clear-button.show22 span:not(:hover)::before, .body-all-project .clear-button.show23 span:not(:hover)::before, .body-all-project .clear-button.show24 span:not(:hover)::before, .body-all-project .clear-button.show25 span:not(:hover)::before, .body-all-project .clear-button.show26 span:not(:hover)::before, .body-all-project .clear-button.show27 span:not(:hover)::before, .body-all-project .clear-button.show28 span:not(:hover)::before, .body-all-project .chakra-button.css-icznz7 span:not(:hover)::before, .css-1a7q1f span:not(:hover)::before, .partof-menu .css-1r87uzy:not(:hover)::before, .philosophycss .css-13is9uc span:not(:hover)::before, .about-css .chakra-button.css-mommo4 span:not(:hover)::before{
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+        -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+                transform-origin: left;
+    }
+    .body-project .css-close:hover::before, .body-project .swiper-1 .swiper-button-prev span:hover::before, .body-project .swiper-1 .swiper-button-next span:hover::before, .body-project .swiper .swiper-button-prev span:hover::before, .body-project .swiper .swiper-button-next span:hover::before, .body-all-project .filter-label .chakra-checkbox__label .chakra-text:hover::before, .body-all-project .button-a-z span:hover::before, .body-all-project .button-z-a span:hover::before, .body-all-project .button-oldest span:hover::before, .body-all-project .button-latest span:hover::before, .body-all-project .list-container .css-anmm3a:hover::before, .css-rswfdo .underl:hover::before, .css-8sh8uf .underl:hover::before{
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+        -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+                transform-origin: left;
+    }
+    .body-project .css-close:not(:hover)::before, .body-project .swiper-1 .swiper-button-prev span:not(:hover)::before, .body-project .swiper-1 .swiper-button-next span:not(:hover)::before, .body-project .swiper .swiper-button-prev span:not(:hover)::before, .body-project .swiper .swiper-button-next span:not(:hover)::before, .body-all-project .filter-label .chakra-checkbox__label .chakra-text:not(:hover)::before, .body-all-project .button-a-z span:not(:hover)::before, .body-all-project .button-z-a span:not(:hover)::before, .body-all-project .button-oldest span:not(:hover)::before, .body-all-project .button-latest span:not(:hover)::before, .body-all-project .list-container .css-anmm3a:not(:hover)::before, .css-8sh8uf .underl:not(:hover)::before{
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+                transform-origin: right;
+    }
+    .css-4ao8tb:hover img, .css-18d38cu:hover img, .css-1xyoul9:hover img, .css-1q6u6nt:hover img, .css-2x3jf:hover img, .list-container .css-1gfnfk8 a:hover img{
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+    }
+}
+.body-project .css-1ngjz47{
+    border: none;
+}
+.uni-svg svg path{
+    stroke-dasharray: 0px 0px;
+}
+.css-1qiu1u3 {
+    margin-top: 0;
+}
+
+
+.search-item[type="search"]::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+     position: relative;
+     height: 3em;
+     width: 2.5em;
+     border-radius: 50em;
+     background: url(../img/clear.svg) no-repeat 50% 50%;
+     -webkit-transform: translateX(5px);
+             transform: translateX(5px);
+     background-size: contain;
+     opacity: 0;
+     pointer-events: none;
+     cursor: pointer;
+}
+.search-item[type="search"]:focus::-webkit-search-cancel-button {
+    opacity: 1;
+    pointer-events: all;
+}
+.body-all-project .css-1xmghhf {
+    padding-top: 6rem;
+    padding-bottom: 5rem;
+}
+.body-project .css-ytbz5e img{
+    color: transparent; 
+    -o-object-position: 50% 50%; 
+       object-position: 50% 50%; 
+    -webkit-transform: translateZ(0px) scale(1); 
+            transform: translateZ(0px) scale(1); 
+    -webkit-backface-visibility: hidden; 
+            backface-visibility: hidden; 
+    -webkit-transition-delay: 0.1s; 
+         -o-transition-delay: 0.1s; 
+            transition-delay: 0.1s; 
+    opacity: 1; 
+    -webkit-transition-property: opacity, -webkit-transform; 
+    transition-property: opacity, -webkit-transform; 
+    -o-transition-property: transform, opacity; 
+    transition-property: transform, opacity; 
+    transition-property: transform, opacity, -webkit-transform; 
+    -webkit-transition-duration: 0.5s; 
+         -o-transition-duration: 0.5s; 
+            transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease-in-out; 
+         -o-transition-timing-function: ease-in-out; 
+            transition-timing-function: ease-in-out;
+}
+.body-project .css-8lc8h3 img{
+    color: transparent; 
+    -o-object-position: 50% 50%; 
+       object-position: 50% 50%; 
+    -webkit-transform: translateZ(0px) scale(1); 
+            transform: translateZ(0px) scale(1); 
+    -webkit-backface-visibility: hidden; 
+            backface-visibility: hidden; 
+    -webkit-transition-delay: 0.1s; 
+         -o-transition-delay: 0.1s; 
+            transition-delay: 0.1s; 
+    opacity: 1; 
+    -webkit-transition-property: opacity, -webkit-transform; 
+    transition-property: opacity, -webkit-transform; 
+    -o-transition-property: transform, opacity; 
+    transition-property: transform, opacity; 
+    transition-property: transform, opacity, -webkit-transform; 
+    -webkit-transition-duration: 0.5s; 
+         -o-transition-duration: 0.5s; 
+            transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease-in-out; 
+         -o-transition-timing-function: ease-in-out; 
+            transition-timing-function: ease-in-out;
+}
+/*.body-project .swiper{
+    display: flex;
+    height: 100%;
+    padding-left: 4.125rem;
+    padding-right: 4.125rem;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 0.5rem;
+}*/
+.body-project .swiper-wrapper{
+    height: calc(100% - 90px);
+}
+.css-1rb520i{
+    padding-top: 0.4rem;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+.css-1gsih6c{
+    -ms-grid-column-span: 28;
+    grid-column-end: 28;
+}
+
+.body-project .swiper-button-next:after, .body-project .swiper-button-prev:after {
+    font-family: swiper-icons;
+    font-size: 0; 
+    text-transform: none!important;
+    letter-spacing: 0;
+    font-variant: initial;
+    line-height: 1;
+}
+.body-project .swiper-button-prev, .body-project .swiper-rtl .swiper-button-next {
+    left: 0;
+    right: auto;
+}
+.body-project .swiper-button-next, .body-project .swiper-rtl .swiper-button-prev {
+    right: 0;
+    left: auto;
+}
+.body-project .swiper-button-next, .body-project .swiper-button-prev {
+    width: auto;
+}
+.body-project .swiper-pagination {
+    padding-top: 0;
+    padding-bottom: 0;
+    cursor: auto;
+}
+.body-project .swiper-horizontal>.swiper-pagination-bullets, .body-project .swiper-pagination-bullets.swiper-pagination-horizontal, .body-project .swiper-pagination-custom, .body-project .swiper-pagination-fraction {
+    width: auto;
+}
+
+/* Animation for the entire group */
+.body-project .css-1e3njhz {
+  position: relative;
+}
+
+.body-project .year-group {
+  -webkit-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.body-project .year-group.fade-out {
+  opacity: 0;
+  /*transform: translateY(-5px);*/
+}
+
+.body-project .year-group.fade-in {
+  opacity: 1;
+  /*transform: translateY(0);*/
+}
+.body-project .chakra-portal{
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.body-project .chakra-portal-show{
+    visibility: visible;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    opacity: 1;
+    z-index: 11;
+}
+.body-project .css-1gsih6c {
+    margin-top: 0.5rem;
+    padding-top: 3rem;
+}
+.body-project .swiper-1 img{
+    color: transparent; 
+    -o-object-position: 50% 50%; 
+       object-position: 50% 50%; 
+    -webkit-transform: translateZ(0px) scale(1); 
+            transform: translateZ(0px) scale(1); 
+    -webkit-backface-visibility: hidden; 
+            backface-visibility: hidden; 
+    -webkit-transition-delay: 0.1s; 
+         -o-transition-delay: 0.1s; 
+            transition-delay: 0.1s; 
+    opacity: 1; 
+    -webkit-transition-property: opacity, -webkit-transform; 
+    transition-property: opacity, -webkit-transform; 
+    -o-transition-property: transform, opacity; 
+    transition-property: transform, opacity; 
+    transition-property: transform, opacity, -webkit-transform; 
+    -webkit-transition-duration: 0.5s; 
+         -o-transition-duration: 0.5s; 
+            transition-duration: 0.5s; 
+    -webkit-transition-timing-function: ease-in-out; 
+         -o-transition-timing-function: ease-in-out; 
+            transition-timing-function: ease-in-out; 
+    -o-object-fit: contain; 
+       object-fit: contain; 
+    -webkit-box-align: start; 
+        -ms-flex-align: start; 
+            align-items: start; 
+    width: auto;
+}
+.body-project .read-more{
+    display: none;
+}
+.body-project .css-xd74k3.css-xd74k3-rotate{
+    -webkit-transform: rotateZ(-90deg);
+        -ms-transform: rotate(-90deg);
+            transform: rotateZ(-90deg);
+}
+.body-project .css-xd74k3 {
+    margin-left: -0.1rem;
+    margin-top: -0.1rem;
+}
+.body-project.overflow-hidden{
+    overflow: hidden;
+}
+.body-project .css-1vs2xhf{
+    position: relative;
+}
+.body-project .css-1qiu1u3{
+    margin-top: 6rem;
+}
+.body-all-project .backgr-img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0px;
+    -o-object-position: 50% 50%;
+       object-position: 50% 50%;
+    color: transparent;
+    -webkit-transform: translateZ(0px) scale(1);
+            transform: translateZ(0px) scale(1);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition-delay: 0.1s;
+         -o-transition-delay: 0.1s;
+            transition-delay: 0.1s;
+    opacity: 1;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    -o-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+         -o-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+}
+.body-all-project .css-filter, .body-all-project .css-sort, .body-all-project .css-search{
+    /*height:0px;
+    opacity:0;*/
+    display:none;
+}
+.body-all-project .css-15zp8ap {
+    background-color: var(--chakra-colors-warmgrey-20);
+    margin-top: -1px;
+    -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+            transform-origin: 0 0;
+    overflow: hidden;
+}
+.body-all-project .css-1scbtsz.filter-rotate, .body-all-project .css-1scbtsz.sort-rotate, .body-all-project .css-1scbtsz.search-rotate{
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
+}
+.body-all-project .chakra-icon-fill{
+    fill: #0a0a0a;
+}
+@media screen and (min-width: 500px) {
+    .body-all-project .css-5sed3l {
+        -ms-grid-column-span: 6;
+        grid-column: span 6 / span 6;
+    }
+}
+.body-all-project .list-container{
+    display: none;
+}
+.body-all-project .grid-container, .body-all-project .list-container{
+    -webkit-animation: load .5s .5s both;
+            animation: load .5s .5s both;
+}
+@keyframes load{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.body-all-project .css-1i3oz8q{
+    color: var(--chakra-colors-warmgrey-100);
+    cursor: default;
+}
+.body-all-project .css-1vww46y{
+    color: var(--chakra-colors-offblack-100);
+    cursor: pointer;
+}
+
+.body-all-project .css-1j4xu2h, .body-all-project .search-projects, .body-all-project .search-projects input.hide, .body-all-project .css-ld4ywo{
+    -webkit-animation: fade 0.5s 0.2s both;
+            animation: fade 0.5s 0.2s both;
+}
+@-webkit-keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.body-all-project .filter-item {
+    -webkit-animation: fadeIn 0.5s 0.5s both, fadeOut 0.5s 0.5s both;
+            animation: fadeIn 0.5s 0.5s both, fadeOut 0.5s 0.5s both;
+}
+@-webkit-keyframes fadeIn {
+    from { 
+        opacity: 0; }
+
+    to { 
+        opacity: 1; 
+    }
+}
+@keyframes fadeIn {
+    from { 
+        opacity: 0; }
+
+    to { 
+        opacity: 1; 
+    }
+}
+@-webkit-keyframes fadeOut {
+    from { 
+        opacity: 0; }
+
+    to { 
+        opacity: 1; 
+    }
+}
+@keyframes fadeOut {
+    from { 
+        opacity: 0; }
+
+    to { 
+        opacity: 1; 
+    }
+}
+
+.body-all-project .clear-button, .body-all-project .sort-button-filter{
+    display: none;
+}
+.body-all-project .clear-button.show, .body-all-project .clear-button.show1, .body-all-project .clear-button.show2, .body-all-project .clear-button.show3, .body-all-project .clear-button.show4, .body-all-project .clear-button.show5, .body-all-project .clear-button.show6, .body-all-project .clear-button.show7, .body-all-project .clear-button.show8, .body-all-project .clear-button.show9, .body-all-project .clear-button.show10, .body-all-project .clear-button.show11, .body-all-project .clear-button.show12, .body-all-project .clear-button.show13, .body-all-project .clear-button.show14, .body-all-project .clear-button.show15, .body-all-project .clear-button.show16, .body-all-project .clear-button.show17, .body-all-project .clear-button.show18, .body-all-project .clear-button.show19, .body-all-project .clear-button.show20, .body-all-project .clear-button.show21, .body-all-project .clear-button.show22, .body-all-project .clear-button.show23, .body-all-project .clear-button.show24, .body-all-project .clear-button.show25, .body-all-project .clear-button.show26, .body-all-project .clear-button.show27, .body-all-project .clear-button.show28{
+    display: block;
+}
+.body-all-project .sort-button-filter.show-a-z, .body-all-project .sort-button-filter.show-z-a, .body-all-project .sort-button-filter.show-oldest, .body-all-project .sort-button-filter.show-latest{
+    display: block;
+}
+.body-all-project .chakra-container-svg-path svg path{
+    stroke-dasharray: 0px 0px;
+}
+.body-all-project .css-1qiu1u3 {
+    margin-top: 6.5rem;
+}
+.body-all-project .css-2z4jz3 path{
+    stroke-dasharray: 0px 0px;
+}
+.body-all-project .css-149czk-active, .body-all-project .css-149czk-active svg path{
+    color: #7a6f67;
+}
+.css-contain>img{
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+.body-all-project .css-1scbtsz{
+    margin-left: -0.25rem;
+}
+.body-all-project .css-1i3oz8q, .body-all-project .css-1vww46y{
+    -webkit-padding-start: var(--chakra-space-4);
+            padding-inline-start: var(--chakra-space-4);
+    -webkit-padding-end: var(--chakra-space-4);
+            padding-inline-end: var(--chakra-space-4);
+    padding: 0px;
+    height: auto;
+    letter-spacing: 0.15px;
+    display: inline;
+    min-width: 1.875rem;
+    cursor: pointer;
+    text-align: right;
+}
+.body-all-project .projects-active{
+    color: #7a6f67;
+}
+.body-all-project .projects-active::before, .impact-css .impact-color::before{
+    background-color: #7a6f67;
+}
+.impact-css .css-vztk9e{
+    position: relative;
+    z-index: 1;
+}
+.impact-css .css-6q18kt{
+    color: #858585;
+}
+.impact-css .impact-color{
+    color: #7a6f67;
+}
+.philosophycss .css-6q18kt{
+    color: #fff;
+}
+.philosophycss .swiper{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    z-index: 1;
+}
+.philosophycss .swiper-pagination {
+    position: initial;
+    padding-top: 24px;
+}
+.philosophycss .swiper-pagination-bullet {
+    width: 3rem;
+    background-color: #0a0a0a;
+}
+.philosophycss .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .philosophycss .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: calc(100% / 3 - 6px);
+}
+body.about-css{
+    padding-top: 120px;
+}
+.about-css .css-8rc4sr{
+    color: #0a0a0a;
+    background: #fff;
+}
+.css-8rc4sr.css-odqpyi{
+    background: var(--chakra-colors-transparent);
+}
+.about-css .css-1rxxw9_copy::before, .news-css .css-1rxxw9_copy::before{
+    background-color: #0a0a0a;
+}
+.about-css .css-le2xpx{
+    color: #0a0a0a;
+}
+.about-css .css-80o3fs, .news-css .css-80o3fs{
+    color: #0a0a0a;
+}
+.about-css .css-qodd0n, .news-css .css-qodd0n{
+    color: #0a0a0a;
+}
+.about-css .css-8rc4sr .css-1vo9grg {
+    color: #0a0a0a;
+}
+/*.about-css .before-none .chakra-text.css-1b0ybnk{
+    text-decoration: underline;
+}*/
+/*.about-css .before-none .chakra-text.css-1b0ybnk:hover{
+    text-decoration: none;
+}*/
+.about-css .before-none .read-more-about::before{
+    content: "";
+    -webkit-transform: scaleX(0)!important;
+        -ms-transform: scaleX(0)!important;
+            transform: scaleX(0)!important;
+}
+.about-css .before-none span:hover::before{
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+}
+.about-css .before-none span:not(:hover)::before{
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+}
+
+
+
+
+
+
+
+/* underline with border-image */
+.read-more-about {
+  -o-border-image: -o-linear-gradient(left, currentcolor 100%, transparent 0%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(100%, currentcolor), color-stop(0%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentcolor 100%, transparent 0%) 10 / 1 / 0 stretch;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  -webkit-transition: border-image 0.25s;
+  -o-transition: -o-border-image 0.25s;
+  transition: border-image 0.25s;
+  transition: border-image 0.25s, -o-border-image 0.25s;
+}
+
+
+
+/*.step-1 {
+  border-image: linear-gradient(90deg, transparent 10%, currentcolor 10%) 10 / 1 / 0 stretch;
+}
+.step-2 {
+  border-image: linear-gradient(90deg, transparent 20%, currentcolor 20%) 10 / 1 / 0 stretch;
+}
+.step-3 {
+  border-image: linear-gradient(90deg, transparent 30%, currentcolor 30%) 10 / 1 / 0 stretch;
+}
+.step-4 {
+  border-image: linear-gradient(90deg, transparent 40%, currentcolor 40%) 10 / 1 / 0 stretch;
+}
+.step-5 {
+  border-image: linear-gradient(90deg, transparent 50%, currentcolor 50%) 10 / 1 / 0 stretch;
+}
+.step-6 {
+  border-image: linear-gradient(90deg, transparent 60%, currentcolor 60%) 10 / 1 / 0 stretch;
+}
+.step-7 {
+  border-image: linear-gradient(90deg, transparent 70%, currentcolor 70%) 10 / 1 / 0 stretch;
+}
+.step-8 {
+  border-image: linear-gradient(90deg, transparent 80%, currentcolor 80%) 10 / 1 / 0 stretch;
+}
+.step-9 {
+  border-image: linear-gradient(90deg, transparent 90%, currentcolor 90%) 10 / 1 / 0 stretch;
+}
+.step-10 {
+  border-image: linear-gradient(90deg, transparent 100%, currentcolor 100%) 10 / 1 / 0 stretch;
+}
+
+
+
+.step-reverse-1 {
+  border-image: linear-gradient(90deg, currentColor 0%, transparent 0%) 10 / 1 / 0 stretch;
+}
+.step-reverse-2 {
+  border-image: linear-gradient(90deg, currentColor 10%, transparent 10%) 10 / 1 / 0 stretch;
+}
+.step-reverse-3 {
+  border-image: linear-gradient(90deg, currentColor 20%, transparent 20%) 10 / 1 / 0 stretch;
+}
+.step-reverse-4 {
+  border-image: linear-gradient(90deg, currentColor 30%, transparent 30%) 10 / 1 / 0 stretch;
+}
+.step-reverse-5 {
+  border-image: linear-gradient(90deg, currentColor 40%, transparent 40%) 10 / 1 / 0 stretch;
+}
+.step-reverse-6 {
+  border-image: linear-gradient(90deg, currentColor 50%, transparent 50%) 10 / 1 / 0 stretch;
+}
+.step-reverse-7 {
+  border-image: linear-gradient(90deg, currentColor 60%, transparent 60%) 10 / 1 / 0 stretch;
+}
+.step-reverse-8 {
+  border-image: linear-gradient(90deg, currentColor 70%, transparent 70%) 10 / 1 / 0 stretch;
+}
+.step-reverse-9 {
+  border-image: linear-gradient(90deg, currentColor 80%, transparent 80%) 10 / 1 / 0 stretch;
+}
+.step-reverse-10 {
+  border-image: linear-gradient(90deg, currentColor 90%, transparent 90%) 10 / 1 / 0 stretch;
+}*/
+
+
+
+
+
+.step-1 {
+  -o-border-image: -o-linear-gradient(left, transparent 5%, currentcolor 5%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(5%, transparent), color-stop(5%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 5%, currentcolor 5%) 10 / 1 / 0 stretch;
+}
+.step-2 {
+  -o-border-image: -o-linear-gradient(left, transparent 10%, currentcolor 10%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(10%, transparent), color-stop(10%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 10%, currentcolor 10%) 10 / 1 / 0 stretch;
+}
+.step-3 {
+  -o-border-image: -o-linear-gradient(left, transparent 15%, currentcolor 15%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, transparent), color-stop(15%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 15%, currentcolor 15%) 10 / 1 / 0 stretch;
+}
+.step-4 {
+  -o-border-image: -o-linear-gradient(left, transparent 20%, currentcolor 20%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(20%, transparent), color-stop(20%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 20%, currentcolor 20%) 10 / 1 / 0 stretch;
+}
+.step-5 {
+  -o-border-image: -o-linear-gradient(left, transparent 25%, currentcolor 25%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(25%, transparent), color-stop(25%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 25%, currentcolor 25%) 10 / 1 / 0 stretch;
+}
+.step-6 {
+  -o-border-image: -o-linear-gradient(left, transparent 30%, currentcolor 30%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, transparent), color-stop(30%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 30%, currentcolor 30%) 10 / 1 / 0 stretch;
+}
+.step-7 {
+  -o-border-image: -o-linear-gradient(left, transparent 35%, currentcolor 35%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(35%, transparent), color-stop(35%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 35%, currentcolor 35%) 10 / 1 / 0 stretch;
+}
+.step-8 {
+  -o-border-image: -o-linear-gradient(left, transparent 40%, currentcolor 40%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(40%, transparent), color-stop(40%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 40%, currentcolor 40%) 10 / 1 / 0 stretch;
+}
+.step-9 {
+  -o-border-image: -o-linear-gradient(left, transparent 45%, currentcolor 45%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(45%, transparent), color-stop(45%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 45%, currentcolor 45%) 10 / 1 / 0 stretch;
+}
+.step-10 {
+  -o-border-image: -o-linear-gradient(left, transparent 50%, currentcolor 50%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(50%, transparent), color-stop(50%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 50%, currentcolor 50%) 10 / 1 / 0 stretch;
+}
+.step-11 {
+  -o-border-image: -o-linear-gradient(left, transparent 55%, currentcolor 55%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(55%, transparent), color-stop(55%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 55%, currentcolor 55%) 10 / 1 / 0 stretch;
+}
+.step-12 {
+  -o-border-image: -o-linear-gradient(left, transparent 60%, currentcolor 60%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(60%, transparent), color-stop(60%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 60%, currentcolor 60%) 10 / 1 / 0 stretch;
+}
+.step-13 {
+  -o-border-image: -o-linear-gradient(left, transparent 65%, currentcolor 65%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(65%, transparent), color-stop(65%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 65%, currentcolor 65%) 10 / 1 / 0 stretch;
+}
+.step-14 {
+  -o-border-image: -o-linear-gradient(left, transparent 70%, currentcolor 70%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(70%, transparent), color-stop(70%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 70%, currentcolor 70%) 10 / 1 / 0 stretch;
+}
+.step-15 {
+  -o-border-image: -o-linear-gradient(left, transparent 75%, currentcolor 75%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(75%, transparent), color-stop(75%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 75%, currentcolor 75%) 10 / 1 / 0 stretch;
+}
+.step-16 {
+  -o-border-image: -o-linear-gradient(left, transparent 80%, currentcolor 80%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(80%, transparent), color-stop(80%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 80%, currentcolor 80%) 10 / 1 / 0 stretch;
+}
+.step-17 {
+  -o-border-image: -o-linear-gradient(left, transparent 85%, currentcolor 85%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(85%, transparent), color-stop(85%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 85%, currentcolor 85%) 10 / 1 / 0 stretch;
+}
+.step-18 {
+  -o-border-image: -o-linear-gradient(left, transparent 90%, currentcolor 90%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(90%, transparent), color-stop(90%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 90%, currentcolor 90%) 10 / 1 / 0 stretch;
+}
+.step-19 {
+  -o-border-image: -o-linear-gradient(left, transparent 95%, currentcolor 95%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(95%, transparent), color-stop(95%, currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 95%, currentcolor 95%) 10 / 1 / 0 stretch;
+}
+.step-20 {
+  -o-border-image: -o-linear-gradient(left, transparent 100%, currentcolor 100%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(100%, transparent), to(currentcolor)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, transparent 100%, currentcolor 100%) 10 / 1 / 0 stretch;
+}
+
+
+
+.step-reverse-1 {
+  -o-border-image: -o-linear-gradient(left, currentColor 0%, transparent 0%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, from(currentColor), color-stop(0%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 0%, transparent 0%) 10 / 1 / 0 stretch;
+}
+.step-reverse-2 {
+  -o-border-image: -o-linear-gradient(left, currentColor 5%, transparent 5%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(5%, currentColor), color-stop(5%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 5%, transparent 5%) 10 / 1 / 0 stretch;
+}
+.step-reverse-3 {
+  -o-border-image: -o-linear-gradient(left, currentColor 10%, transparent 10%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(10%, currentColor), color-stop(10%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 10%, transparent 10%) 10 / 1 / 0 stretch;
+}
+.step-reverse-4 {
+  -o-border-image: -o-linear-gradient(left, currentColor 15%, transparent 15%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(15%, currentColor), color-stop(15%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 15%, transparent 15%) 10 / 1 / 0 stretch;
+}
+.step-reverse-5 {
+  -o-border-image: -o-linear-gradient(left, currentColor 20%, transparent 20%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(20%, currentColor), color-stop(20%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 20%, transparent 20%) 10 / 1 / 0 stretch;
+}
+.step-reverse-6 {
+  -o-border-image: -o-linear-gradient(left, currentColor 25%, transparent 25%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(25%, currentColor), color-stop(25%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 25%, transparent 25%) 10 / 1 / 0 stretch;
+}
+.step-reverse-7 {
+  -o-border-image: -o-linear-gradient(left, currentColor 30%, transparent 30%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(30%, currentColor), color-stop(30%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 30%, transparent 30%) 10 / 1 / 0 stretch;
+}
+.step-reverse-8 {
+  -o-border-image: -o-linear-gradient(left, currentColor 35%, transparent 35%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(35%, currentColor), color-stop(35%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 35%, transparent 35%) 10 / 1 / 0 stretch;
+}
+.step-reverse-9 {
+  -o-border-image: -o-linear-gradient(left, currentColor 40%, transparent 40%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(40%, currentColor), color-stop(40%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 40%, transparent 40%) 10 / 1 / 0 stretch;
+}
+.step-reverse-10 {
+  -o-border-image: -o-linear-gradient(left, currentColor 45%, transparent 45%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(45%, currentColor), color-stop(45%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 45%, transparent 45%) 10 / 1 / 0 stretch;
+}
+.step-reverse-11 {
+  -o-border-image: -o-linear-gradient(left, currentColor 50%, transparent 50%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(50%, currentColor), color-stop(50%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 50%, transparent 50%) 10 / 1 / 0 stretch;
+}
+.step-reverse-12 {
+  -o-border-image: -o-linear-gradient(left, currentColor 55%, transparent 55%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(55%, currentColor), color-stop(55%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 55%, transparent 55%) 10 / 1 / 0 stretch;
+}
+.step-reverse-13 {
+  -o-border-image: -o-linear-gradient(left, currentColor 60%, transparent 60%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(60%, currentColor), color-stop(60%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 60%, transparent 60%) 10 / 1 / 0 stretch;
+}
+.step-reverse-14 {
+  -o-border-image: -o-linear-gradient(left, currentColor 65%, transparent 65%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(65%, currentColor), color-stop(65%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 65%, transparent 65%) 10 / 1 / 0 stretch;
+}
+.step-reverse-15 {
+  -o-border-image: -o-linear-gradient(left, currentColor 70%, transparent 70%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(70%, currentColor), color-stop(70%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 70%, transparent 70%) 10 / 1 / 0 stretch;
+}
+.step-reverse-16 {
+  -o-border-image: -o-linear-gradient(left, currentColor 75%, transparent 75%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(75%, currentColor), color-stop(75%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 75%, transparent 75%) 10 / 1 / 0 stretch;
+}
+.step-reverse-17 {
+  -o-border-image: -o-linear-gradient(left, currentColor 80%, transparent 80%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(80%, currentColor), color-stop(80%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 80%, transparent 80%) 10 / 1 / 0 stretch;
+}
+.step-reverse-18 {
+  -o-border-image: -o-linear-gradient(left, currentColor 85%, transparent 85%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(85%, currentColor), color-stop(85%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 85%, transparent 85%) 10 / 1 / 0 stretch;
+}
+.step-reverse-19 {
+  -o-border-image: -o-linear-gradient(left, currentColor 90%, transparent 90%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(90%, currentColor), color-stop(90%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 90%, transparent 90%) 10 / 1 / 0 stretch;
+}
+.step-reverse-20 {
+  -o-border-image: -o-linear-gradient(left, currentColor 95%, transparent 95%) 10 / 1 / 0 stretch;
+     border-image: -webkit-gradient(linear, left top, right top, color-stop(95%, currentColor), color-stop(95%, transparent)) 10 / 1 / 0 stretch;
+     border-image: linear-gradient(90deg, currentColor 95%, transparent 95%) 10 / 1 / 0 stretch;
+}
+/*end of underline with border-image */
+
+.home-current{
+    color: currentColor;
+}
+.home-current .css-contact-home::before{
+    background-color: currentColor;
+}
+
+.readmore::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    background-color: #0a0a0a;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+@media (hover: hover) and (pointer: fine) {
+    .readmore:hover::before{
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+                transform-origin: right;
+    }
+    .readmore:not(:hover)::before{
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+        -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+                transform-origin: left;
+    }
+}
+
+
+body.news-css{
+    padding-top: 90px;
+}
+.news-css .css-1oohl0p, .news-css .css-vipmyp{
+    color: #0a0a0a;
+}
+.news-css .css-142n66a {
+    -ms-grid-column-span: 12;
+    grid-column: span 12/span 12;
+}
+.news-css .css-le2xpx {
+    color: #0a0a0a;
+}
+@media (hover: hover) and (pointer: fine) {
+    .news-css .css-active span:not(:hover)::before{
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+                transform-origin: left;
+    }
+    .news-css .css-1ajb8nx{
+        -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+        -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+        transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+    }
+    .news-css .css-1ajb8nx:hover img{
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+    }
+    .news-css .css-1q6u6nt img{
+        -webkit-transition: -webkit-transform 0.5s 0.1s ease-in-out;
+        transition: -webkit-transform 0.5s 0.1s ease-in-out;
+        -o-transition: transform 0.5s 0.1s ease-in-out;
+        transition: transform 0.5s 0.1s ease-in-out;
+        transition: transform 0.5s 0.1s ease-in-out, -webkit-transform 0.5s 0.1s ease-in-out;
+    }
+    .news-css .css-1q6u6nt:hover img{
+        -webkit-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+                transform: scale(1.05);
+    }
+}
+
+
+.news-css .forReveal, .news-css .forReveal4, .news-css .forReveal8, .news-css .forReveal9, .news-css .forReveal13{
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+}
+.news-css .forReveal1, .news-css .forReveal5, .news-css .forReveal10, .news-css .forReveal14{
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s;
+}
+.news-css .forReveal2, .news-css .forReveal6, .news-css .forReveal11, .news-css .forReveal15{
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.2s;
+}
+.news-css .forReveal3, .news-css .forReveal7, .news-css .forReveal12{
+    -webkit-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s;
+    -o-transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s;
+    transition: 1s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s;
+}
+/*.reveal, .reveal1, .reveal2, .reveal3, .reveal4, .reveal5, .reveal6, .reveal7, .reveal8, .reveal9, .reveal10, .reveal11, .reveal12, .reveal13, .reveal14, .reveal15, .reveal16, .reveal17, .reveal18, .reveal19, .reveal20, .reveal21, .reveal22, .reveal23, .reveal24, .reveal25, .reveal26, .reveal27{
+    opacity: 0;
+    transform: translateY(100px);
+}*/
+
+.news-css .forRevealfirst{
+    -webkit-animation: forRevealfirst 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+            animation: forRevealfirst 1s cubic-bezier(0.17, 0.55, 0.55, 1);
+}
+@-webkit-keyframes forRevealfirst{
+    0%{
+        -webkit-transform: translateY(150px);
+                transform: translateY(150px);
+    }
+    100%{
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+@keyframes forRevealfirst{
+    0%{
+        -webkit-transform: translateY(150px);
+                transform: translateY(150px);
+    }
+    100%{
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+    }
+}
+.contact-css .backgr-img img{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    inset: 0px;
+    -o-object-position: 45% 63.2529%;
+       object-position: 45% 63.2529%;
+    color: transparent;
+    -webkit-transform: translateZ(0px) scale(1);
+            transform: translateZ(0px) scale(1);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+    -webkit-transition-delay: 0.1s;
+         -o-transition-delay: 0.1s;
+            transition-delay: 0.1s;
+    opacity: 1;
+    -webkit-transition-property: opacity, -webkit-transform;
+    transition-property: opacity, -webkit-transform;
+    -o-transition-property: transform, opacity;
+    transition-property: transform, opacity;
+    transition-property: transform, opacity, -webkit-transform;
+    -webkit-transition-duration: 0.5s;
+         -o-transition-duration: 0.5s;
+            transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-in-out;
+         -o-transition-timing-function: ease-in-out;
+            transition-timing-function: ease-in-out;
+}
+.contact-css .css-active span::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 19px;
+    -webkit-transform: scaleX(0);
+        -ms-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #fff;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.contact-css .css-underl::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #000;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.contact-css .css-underl-1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 16px;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #000;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.contact-css .css-1ngjz47 {
+    border: none;
+}
+@media (hover: hover) and (pointer: fine){
+    .contact-css .css-underl:hover::before, .contact-css .css-underl-1:hover::before{
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+                transform-origin: right;
+    }
+    .contact-css .css-underl:not(:hover)::before, .contact-css .css-underl-1:not(:hover)::before{
+        -webkit-transform: scaleX(1);
+            -ms-transform: scaleX(1);
+                transform: scaleX(1);
+        -webkit-transform-origin: left;
+            -ms-transform-origin: left;
+                transform-origin: left;
+    }
+    .contact-css .css-active span:not(:hover)::before{
+        -webkit-transform: scaleX(0);
+            -ms-transform: scaleX(0);
+                transform: scaleX(0);
+        -webkit-transform-origin: right;
+            -ms-transform-origin: right;
+                transform-origin: right;
+    }
+}
+.years-css .css-isr6n8{
+    color: rgb(0 0 0);
+}
+.years-css .swiper-pagination-bullet {
+    background-color: #000000;
+}
+.years-css .swiper-button-prev, .years-css .swiper-rtl .swiper-button-next {
+    left: 0;
+    right: auto;
+}
+.years-css .swiper-button-next, .years-css .swiper-rtl .swiper-button-prev {
+    right: 0;
+    left: auto;
+}
+.years-css .css-isr6n8 {
+    min-width: 2.25rem;
+}
+.years-css .css-131tmr1:hover img{
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+
+
+/* Animation for text and icon */
+.years-css .text-animate {
+    -webkit-animation: fadeText .8s ease-in-out;
+            animation: fadeText .8s ease-in-out;
+}
+/* Keyframes for fade animation */
+@-webkit-keyframes fadeText {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeText {
+    0% { opacity: 0; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+/* Ensure initial state is opaque for all elements */
+.years-css .css-2rksz3 .chakra-heading,
+.years-css .css-m6ftsm .chakra-text.css-ixwp1l,
+.years-css .css-m6ftsm .chakra-text.css-1c6lpfk .chakra-text.css-ixwp1l,
+.years-css .css-m6ftsm .chakra-text.css-1c6lpfk .chakra-icon.css-laz32f {
+    opacity: 1;
+}
+.years-css .css-x5dysd.css-gb9m9p {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 0.5rem;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+        align-items: center;
+    top: 0px;
+    -webkit-transition: 0.35s ease-in-out;
+    -o-transition: 0.35s ease-in-out;
+    transition: 0.35s ease-in-out;
+    -webkit-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+            transform: translateX(0%);
+    opacity: 1;
+}
+.years-css .css-none .css-underl{
+    color: #7a6f67;
+}
+.years-css .css-none .css-underl::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0;
+    top: 18px;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #000;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.years-css .chakra-text.css-1b0ybnk.css-underl.pale {
+    color: #999;
+}
+.years-css .css-underl.pale::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    top: 18px;
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+    -webkit-transform-origin: right;
+        -ms-transform-origin: right;
+            transform-origin: right;
+    background-color: #999;
+    -webkit-transition: -webkit-transform 0.2s ease-in-out;
+    transition: -webkit-transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.years-css .read-more-about {
+    padding-bottom: 1.5px;
+}
+.years-css .css-igde7a{
+    z-index: 1;
+}
